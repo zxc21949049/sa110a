@@ -8,3 +8,5 @@ BDD 是 TDD 的進化版 除了一樣先寫測試再實作外 還要先寫規格
 程式語法描述其極接近日常口語 相當簡單易懂 也可以執行
 
 ![p](https://github.com/zxc21949049/sa110a/blob/master/TB.jpg)
+
+參考:https://medium.com/hobo-engineer/ricky%E7%AD%86%E8%A8%98-tdd-bdd-and-test-double-76eee9e75092
