@@ -24,17 +24,26 @@ if __name__ == '__main__':
 ## 測試成功
 
 ![p](https://github.com/zxc21949049/sa110a/blob/master/fin/001.jpg)
+
 第一行 代表測試通過
+
 ..........................
+
 第二行 測試花費的時間
+
 第三行 OK告訴我們這個測試用例通過
+
 
 ## 測試失敗
 
 ![p](https://github.com/zxc21949049/sa110a/blob/master/fin/002.jpg)
+
 第一行的E（Error）
+
 ..........................
+
 第二行 告訴我們失敗的測試函數
+
 第三行 Trackback告訴我們具體的錯誤信息
 
 
