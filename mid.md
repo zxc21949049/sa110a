@@ -19,7 +19,10 @@ sampling) 模擬來解決數學問題。
 
 參考資料:http://blog.udn.com/wiselylin/2093294
 
-## 蒙特卡洛算法经典应用(计算π的值)。
+## 蒙特卡洛算法经典应用(计算π的值)。 複製
+
+
+
 ```
 	// 随机化值。
    function RadomLocation(min, max) {
@@ -42,4 +45,5 @@ sampling) 模擬來解決數學問題。
     
     ```
 ```
+蒙特卡洛算法特點 採樣的樣本越大 越接近真實值。
 參考資料:https://blog.csdn.net/weixin_43629719/article/details/99466092

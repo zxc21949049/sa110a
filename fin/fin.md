@@ -1,7 +1,7 @@
 ## 建一個函數 姓氏 名字作為輸入 name_function.py
 ```
-def get_formatted_name(first, last):
-    full_name = f"{first} {last}"
+def get_formatted_name(family name, given name):
+    full_name = f"{family name} {given name}"
     return full_name.title()
 ```
 ## name_function_testing.py 創建一個測試用例
@@ -10,9 +10,9 @@ import unittest
 from name_function import get_formatted_name
 
 class NamesTestCase(unittest.TestCase):
-    def test_first_last_name(self):
-        formatted_name = get_formatted_name('andrew', 'yang')
-        self.assertEqual(formatted_name, 'Andrew Yang')  # self.assertEqual內部特有檢驗代碼
+    def test_family_given_name(self):
+        formatted_name = get_formatted_name('Mao', 'Zedong') #毛澤東在英文中寫作Mao Zedong
+        self.assertEqual(formatted_name, 'Mao Zedong')  # self.assertEqual內部特有檢驗代碼
 
 if __name__ == '__main__':
     unittest.main()
@@ -38,5 +38,5 @@ if __name__ == '__main__':
 第三行 Trackback告訴我們具體的錯誤信息
 
 
-參考教學:https://turingplanet.org/2019/10/04/python-testing/
+參考教學:https://www.youtube.com/watch?v=ekjSThKyYKw&t=1s   模擬
 
