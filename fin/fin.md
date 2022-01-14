@@ -4,7 +4,7 @@ def get_formatted_name(family name, given name):
     full_name = family name  + ' ' + given name"  # 生成姓與名 (一種格式)
     return full_name.title()
 ```
-## name_function_testing.py 創建一個測試用例
+## name_functiontest.py 創建一個測試用例
 ```
 import unittest
 from name_function import get_formatted_name
